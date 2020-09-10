@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>All-in-one Launcher</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+      h1 {
+        font-family: "Menlo" monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+      a:link,
+      a:visited {
+        color: black;
+        outline: 0;
+        text-decoration: none;
+      }
+      img {
+        width: 30px;
+      }
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+      .modal-content {
+        padding: 0px 22px;
+      }
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+      .logo {
+        padding: 16px;
+      }
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+      .version {
+        color: white;
+        font-size: 18px;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+      .flex:hover {
+        opacity: 0.4;
+      }
+      .flex .fa .fab .j1 {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img src="images/icon_150.jpg" alt="" class="logo-icon" /> All in one
+        Launcher <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>Your Favorite Social Media Handles</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.instagram.com/?hl=en" target="_blank">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://web.whatsapp.com/" target="_blank">
+            <i class="fa fa-whatsapp fa-2x"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook fa-2x"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="modal-content">
+      <p>Essentials</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a
+            href="https://www.microsoft.com/en-in/microsoft-365/microsoft-teams/group-chat-software"
+            target="_blank"
+          >
+            <img src="teams.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://meet.google.com/" target="_blank">
+            <img src="meet.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://zoom.us/" target="_blank">
+            <img src="zoom.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.google.com/drive/" target="_blank">
+            <img src="gdrive.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a
+            href="https://edu.google.com/intl/en-GB/products/classroom/?modal_active=none"
+            target="_blank"
+          >
+            <img src="classroom.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-content">
+      <p>Entertainment and Food</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.netflix.com/in/" target="_blank">
+            <img src="netflix.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.primevideo.com/" target="_blank">
+            <img src="Prime-Video-Stacked_50x50.jpg" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.dominos.co.in/" target="_blank">
+            <img src="dominos-pizza.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.swiggy.com/" target="_blank">
+            <img src="swiggy.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.zomato.com/" target="_blank">
+            <img src="zomato.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-content">
+      <p>Banking</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://paytm.com/" target="_blank">
+            <img src="paytm.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.phonepe.com/" target="_blank">
+            <img src="phonepe.jpg" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://pay.google.com/gp/w/u/0/home/signup?sctid=650522205663463" target="_blank">
+            <img src="gpay.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.hdfcbank.com/" target="_blank">
+            <img src="hdfc.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.onlinesbi.com/" target="_blank">
+            <img src="sbi.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal-content">
+      <p>Shopping and Grooming</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.amazon.in/" target="_blank">
+            <img src="amazon.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.flipkart.com/" target="_blank">
+            <img src="flipkart.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.bigbasket.com/" target="_blank">
+            <img src="bb.jpg" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://grofers.com/" target="_blank">
+            <img src="grof_45x45.png" alt="" />
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.urbancompany.com/" target="_blank">
+            <img src="uc_45x45.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="modal-content">
+      <p>Creator's Website</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://sai-rakshith-portfolio.netlify.app/" target="_blank">
+            <i class="fa fa-globe fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
